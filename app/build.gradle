@@ -47,15 +47,18 @@ dependencies {
     implementation 'androidx.constraintlayout:constraintlayout:2.0.4'
 
     //retrofit @see https://square.github.io/retrofit/
+    // O retrofit é uma biblioteca voltada para consumo http
     implementation "com.squareup.retrofit2:retrofit:2.9.0"
     implementation "com.squareup.retrofit2:converter-gson:2.9.0"
     implementation "com.squareup.okhttp3:logging-interceptor:4.9.0"
 
     //koin @see https://insert-koin.io/docs/quickstart/android/
+    // Biblioteca para uso de injeçãode dependência
     implementation "io.insert-koin:koin-android:3.0.1"
     implementation "io.insert-koin:koin-android-ext:3.0.1"
 
     //coroutines @see https://developer.android.com/kotlin/coroutines
+    // Utilizado para fazer uma solicitação de rede e carregar em segundo plano para que não faça o app parar de responder
     implementation 'org.jetbrains.kotlinx:kotlinx-coroutines-android:1.4.1'
 
     //lifecycle @see https://developer.android.com/topic/libraries/architecture/lifecycle?hl=pt-Br#lc
